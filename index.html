@@ -3,124 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContentCraft AI | Enhancing Brand Engagement Through AI</title>
+    <title>ContentCraft AI - Enhance Your Brand Engagement</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-        header {
-            background-color: #4A90E2;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .hero {
-            background: url('hero-bg.jpg') no-repeat center center/cover;
-            height: 70vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .hero p {
-            font-size: 1.25em;
-            margin: 20px 0;
-        }
-        .cta {
-            background-color: #F5A623;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            font-size: 1em;
-            cursor: pointer;
-        }
-        .features {
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .features h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .features .feature-list {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .feature-item {
-            width: 30%;
-            margin-bottom: 20px;
-        }
-        .feature-item img {
-            max-width: 100%;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
+        body, html { margin: 0; padding: 0; font-family: Arial, sans-serif; color: #333; }
+        .header { background: #4A90E2; color: #fff; padding: 20px 0; text-align: center; }
+        .header h1 { margin: 0; font-size: 2.5rem; }
+        .header p { margin: 0; font-size: 1.25rem; }
+        .main { padding: 40px 20px; text-align: center; }
+        .main .value-prop { margin-bottom: 40px; }
+        .value-prop h2 { font-size: 2rem; margin-bottom: 20px; }
+        .value-prop p { font-size: 1.2rem; }
+        .features { display: flex; flex-wrap: wrap; justify-content: center; }
+        .feature { flex: 1; max-width: 300px; margin: 10px; padding: 20px; background-color: #f4f4f4; border-radius: 8px; }
+        .feature h3 { margin-top: 0; }
+        .cta { padding: 20px; background-color: #4A90E2; color: #fff; border-radius: 8px; }
+        .cta p { font-size: 1.25rem; }
+        .cta a { background-color: #fff; color: #4A90E2; padding: 10px 20px; text-decoration: none; border-radius: 4px; }
         @media (max-width: 768px) {
-            .feature-item {
-                width: 45%;
-            }
-        }
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2.5em;
-            }
-            .feature-item {
-                width: 90%;
-            }
+            .features { flex-direction: column; }
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>ContentCraft AI</h1>
-</header>
-
-<div class="hero">
-    <div>
-        <h1>Transform Your Content Strategy</h1>
-        <p>Enhance engagement, reduce production time by 50%, and boost ROI with AI-driven solutions.</p>
-        <button class="cta">Get Started</button>
-    </div>
-</div>
-
-<section class="features">
-    <h2>Key Features</h2>
-    <div class="feature-list">
-        <div class="feature-item">
-            <img src="engagement.jpg" alt="Engagement">
-            <h3>Enhanced Engagement</h3>
-            <p>Leverage AI to create content that captivates your audience.</p>
-        </div>
-        <div class="feature-item">
-            <img src="efficiency.jpg" alt="Efficiency">
-            <h3>50% Faster Production</h3>
-            <p>Accelerate your content creation process with seamless AI assistance.</p>
-        </div>
-        <div class="feature-item">
-            <img src="roi.jpg" alt="ROI">
-            <h3>Improved ROI</h3>
-            <p>Boost your marketing returns with optimized content strategies.</p>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2023 ContentCraft AI. All Rights Reserved.</p>
-</footer>
-
+    <header class="header">
+        <h1>ContentCraft AI</h1>
+        <p>AI-Driven Content Creation & Optimization Platform</p>
+    </header>
+    <main class="main">
+        <section class="value-prop">
+            <h2>Enhance Brand Engagement, Reduce Content Production Time, Increase ROI</h2>
+            <p>ContentCraft AI empowers your marketing efforts with cutting-edge AI technology to boost engagement, efficiency, and profitability.</p>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h3>Boost Engagement</h3>
+                <p>Leverage AI to create captivating content that resonates with your audience and strengthens your brand presence.</p>
+            </div>
+            <div class="feature">
+                <h3>Save Time</h3>
+                <p>Reduce content production time by 50% with automated creation and smart optimization, allowing you to focus on strategy.</p>
+            </div>
+            <div class="feature">
+                <h3>Maximize ROI</h3>
+                <p>Increase the return on your marketing investments through data-driven insights and performance tracking.</p>
+            </div>
+        </section>
+        <section class="cta">
+            <p>Join the future of content marketing with ContentCraft AI.</p>
+            <a href="#">Get Started</a>
+        </section>
+    </main>
 </body>
 </html>
