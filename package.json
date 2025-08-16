@@ -1,0 +1,17 @@
+{
+  "name": "contentcraft-ai",
+  "version": "1.0.0",
+  "description": "AI-driven content creation and optimization platform that enhances brand engagement, reduces content production time by 50%, and increases ROI on marketing efforts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
